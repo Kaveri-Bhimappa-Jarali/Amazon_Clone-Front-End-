@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    border:border-box;  /*to set border as per the height and width mentioned i.e not allow to take additinal size*/
+}
+
+.navbar{
+    height: 50px;
+    background-color:#0f1111 ;
+    justify-content: space-evenly;
+    color:white;
+    display:flex;   /*if multiple div tags are present if we what them to set in single div/row then display:flex is used*/
+    /*enables the Flexbox layout, a one-dimensional layout model for arranging items in rows or columns*/
+   align-items:center;
+}
+.nav-logo{
+    width:130px;
+    height:60px;
+}
+.logo{
+    background-image:url("amazon_logo.png");
+    background-size: cover; /* scales a background image to completely cover the background area of an element, even if it means cropping the image*/
+    height:50px;
+    width:130px;
+}
+
+.border{
+    border:2px solid transparent;
+}
+
+.border:hover{
+    border:2px solid white;
+}
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+.del{
+    font-size:12px;
+    color:#cccccc;
+    margin-left:2px;
+}
+
+.upd{
+    font-size:14px;
+    padding:0px 0px 1px;
+    margin-left:1.5px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height:40px;
+    width:600px;
+    color: #0f1111;
+    align-items: center;
+    border-radius: 3px;
+}
+.select{
+    background-color: #f6f6f6;;
+    width:40px;
+    border-bottom-left-radius:3px;
+    border-top-left-radius:3px;
+    border:none;
+}
+.input{
+    width:90%;
+    font-size:14px;
+    padding-left: 5px;
+    border:none;
+}
+.icon{
+    width:45px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: rgb(196, 104, 19);
+    border:none;
+    border-bottom-right-radius:3px;
+    border-top-right-radius:3px;
+}
+.nav-language{
+    width:45;
+    height:45;
+    color:#D6d6d6;
+    font-size:14px;
+}
+.nav-hello{
+    height:50px;
+    width:115;
+   text-align:center;
+   margin-top:15px;
+}
+.hello{
+    width:100px;
+    height:14px;
+    font-size:12px;
+    color:#ffffff;
+}
+.acc{
+    width:100px;
+    height:14px;
+    font-size:14px;
+    color:#ffffff;
+    font-weight:bold;
+}
+.nav-order{
+    width:78;
+    height:50px;
+    color:#d6d6d6;
+    font-size:14px;
+}
+.return{
+    width:60px;
+    height:14px;
+    font-size:12px;
+    color:#ffffff;
+    margin-top:9px;
+}
+.order{
+    width:60px;
+    height:15px;
+    font-size:14px;
+    color:#ffffff;
+    font-weight:bold;
+}
+.nav-cart {
+    width:41px;
+    height:39px;
+    display:flex;
+    align-items:center;
+    font-size:30px;
+}
+.panel{
+    height:39px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#222f3d;
+    color:white;
+    align-items:center;
+}
+.panel-ops p{
+    display:inline;
+    margin-left:15px;
+}
+.panel-ops{
+    width:70%;
+    font-size:0.85rem;
+}
+.panel-ops p:hover{
+    border:2px solid white;
+}
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height:350px;
+}
+.shop-section{
+    height:900px;
+    background-color: #222f3d;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height:350px;
+    width:23%;
+    border:2px solid white;
+    padding:20px 0px 15px;
+    background-color: white;
+    margin-top:17px;
+}
+.img{
+    height:280px;
+    background-size: cover;     /*Very Important to mention it when we are using background_image*/
+    background-repeat: no-repeat;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+h2{
+    color:black;
+}
+.box-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+.box-content a{
+    color:black;
+    margin-top:20px;
+}
+footer{
+    margin-top:25px;
+}
+.hre-frame{
+    height:180px;
+    background-color:white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+h2{
+    text-align:center;
+    font-weight:bold;
+}
+button{
+    height:29px;
+    width:140px;
+    background-color: orange;
+    border-radius:5px;
+}
+.sign-in-button{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-top:10px;
+}
+.new-custome{
+    text-align:center;
+    font-size:11px;
+    margin-top:10px;
+}
+.backtotop{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height:49px;
+    background-color: #0f1111;
+    color:white;
+    margin-top:10px;
+}
+.footer-panel-2{
+    height:400px;
+    background-color:#011127;
+    display:flex;
+    justify-content:space-evenly;
+    color:#D6d6d6;
+}
+ul p{
+    font-size:16px;
+    font-weight:bold;
+    margin:20px;
+}
+ul a{
+    font-size:14px;
+    margin:20px;
+    display:block;  /*the element is displayed as a block, as paragraphs and headers have always been. to make ancker tags in line by line*/
+}
+.footer-panel-3{
+    height:68px;
+    background-color: #222f3d;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.footer-logo{
+    background-image:url("amazon_logo.png");
+    background-size: cover; /* scales a background image to completely cover the background area of an element, even if it means cropping the image*/
+    height:50px;
+    width:130px;
+}
+.footer-add{
+    height:100px;
+    background-color:#011127;
+    color:#d6d6d6;
+    font-size:12px;
+    text-align:center;
+}
+.pages {
+   padding-top:25px;
+}
+.copyright{
+   padding-top:5px;
+}
